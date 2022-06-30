@@ -1,8 +1,7 @@
-import React, {useState} from 'react';
+import React from 'react';
 import {useDispatch} from 'react-redux';
 import {changeProduct} from "../redux/actions/product";
 import {changeSearch} from "../redux/actions/search";
-import {titles} from './data/titles';
 
 const Navbar = () => {
   const dispatch = useDispatch();
